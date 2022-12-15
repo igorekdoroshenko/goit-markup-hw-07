@@ -974,8 +974,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.coordination-input {
-}
+
 .coordination-input:checked + label > span {
   border: none;
   background-color: var(--accent-color);
