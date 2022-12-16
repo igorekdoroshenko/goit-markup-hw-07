@@ -1,5 +1,5 @@
 /*------------SUBSCRIBE FOOTER-----*/
-.subscribe-container {
+.subscribe {
     display: inline-block;
     margin-left: auto;
     width: 570px;
@@ -8,11 +8,11 @@
     left: 0;
 }
 
-.subscribe-form {
+.subscribe__form {
     background-color: #2f303a;
 }
 
-.subscribe-label {
+.subscribe__label {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -26,11 +26,11 @@
     margin-bottom: 20px;
 }
 
-.subscribe-wrapper {
+.subscribe__wrapper {
     display: inline-flex;
 }
 
-.subscribe {
+.subscribe__input {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -51,7 +51,7 @@
     display: inline-block;
 }
 
-.subscribe-btn {
+.subscribe__btn {
     width: 200px;
     height: 50px;
     background: #2196f3;
@@ -75,7 +75,7 @@
     padding-bottom: 10px;
 }
 
-.subscribe-icons {
+.subscribe__icons {
     position: absolute;
     top: 50%;
     right: 28px;
@@ -83,7 +83,7 @@
     fill: var(--main-white-color);
 }
 
-.subscribe-icons svg {
+.subscribe__icons svg {
     display: flex;
     justify-content: center;
     align-items: center;

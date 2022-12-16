@@ -1,9 +1,9 @@
 /*-----------SOCIAL FOOTER--------*/
-.social-container {
+.social {
     display: inline-block;
 }
 
-.footer-title {
+.social__title {
     margin-bottom: 20px;
 
     font-weight: 700;
@@ -14,11 +14,11 @@
     color: var(--main-white-color);
 }
 
-.footer-social {
+.social__list {
     display: flex;
 }
 
-.footer-social-items {
+.social__items {
     width: 44px;
     height: 44px;
 
@@ -29,7 +29,7 @@
 
 
 
-.footer-social-link {
+.social__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +53,6 @@
 
 
 
-.footer-social-icons {
+.social__icons {
     fill: var(--main-white-color);
 }

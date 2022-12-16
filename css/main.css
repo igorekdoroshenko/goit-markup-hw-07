@@ -501,17 +501,16 @@ ul {
   align-items: baseline;
 }
 
-/*------------FOOTER ADRESS-------------*/
-.adress-container {
+.adress {
   display: inline-block;
   margin-right: 70px;
 }
 
-.adress-list:not(:last-child) {
+.adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-adress {
+.adress__sity {
   display: block;
   font-family: "Roboto";
   font-style: normal;
@@ -527,7 +526,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-item {
+.adress__text {
   display: block;
   font-family: "Roboto";
   font-style: normal;
@@ -543,17 +542,17 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list :hover,
-.footer-list :focus {
+.adress__list :hover,
+.adress__list :focus {
   color: var(--accent-color);
 }
 
 /*-----------SOCIAL FOOTER--------*/
-.social-container {
+.social {
   display: inline-block;
 }
 
-.footer-title {
+.social__title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -563,19 +562,19 @@ ul {
   color: var(--main-white-color);
 }
 
-.footer-social {
+.social__list {
   display: flex;
 }
 
-.footer-social-items {
+.social__items {
   width: 44px;
   height: 44px;
 }
-.footer-social-items:not(:last-child) {
+.social__items:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -588,16 +587,16 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-link:hover, .footer-social-link:focus {
+.social__link:hover, .social__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer-social-icons {
+.social__icons {
   fill: var(--main-white-color);
 }
 
 /*------------SUBSCRIBE FOOTER-----*/
-.subscribe-container {
+.subscribe {
   display: inline-block;
   margin-left: auto;
   width: 570px;
@@ -606,11 +605,11 @@ ul {
   left: 0;
 }
 
-.subscribe-form {
+.subscribe__form {
   background-color: #2f303a;
 }
 
-.subscribe-label {
+.subscribe__label {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -623,11 +622,11 @@ ul {
   margin-bottom: 20px;
 }
 
-.subscribe-wrapper {
+.subscribe__wrapper {
   display: inline-flex;
 }
 
-.subscribe {
+.subscribe__input {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -646,7 +645,7 @@ ul {
   display: inline-block;
 }
 
-.subscribe-btn {
+.subscribe__btn {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -668,7 +667,7 @@ ul {
   padding-bottom: 10px;
 }
 
-.subscribe-icons {
+.subscribe__icons {
   position: absolute;
   top: 50%;
   right: 28px;
@@ -676,7 +675,7 @@ ul {
   fill: var(--main-white-color);
 }
 
-.subscribe-icons svg {
+.subscribe__icons svg {
   display: flex;
   justify-content: center;
   align-items: center;

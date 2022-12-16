@@ -1,14 +1,13 @@
-/*------------FOOTER ADRESS-------------*/
-.adress-container {
+.adress {
     display: inline-block;
     margin-right: 70px;
 }
 
-.adress-list:not(:last-child) {
+.adress__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer-adress {
+.adress__sity {
     display: block;
 
     font-family: "Roboto";
@@ -26,7 +25,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-item {
+.adress__text {
     display: block;
 
     font-family: "Roboto";
@@ -44,7 +43,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list :hover,
-.footer-list :focus {
+.adress__list :hover,
+.adress__list :focus {
     color: var(--accent-color);
 }
