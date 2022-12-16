@@ -1,0 +1,90 @@
+/*------------SUBSCRIBE FOOTER-----*/
+.subscribe-container {
+    display: inline-block;
+    margin-left: auto;
+    width: 570px;
+    height: 86px;
+    top: 0;
+    left: 0;
+}
+
+.subscribe-form {
+    background-color: #2f303a;
+}
+
+.subscribe-label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-white-color);
+
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.subscribe-wrapper {
+    display: inline-flex;
+}
+
+.subscribe {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    letter-spacing: 0.03em;
+    color: var(--main-white-color);
+    background-color: var(--background-hiro-footer);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+
+    display: inline-block;
+}
+
+.subscribe-btn {
+    width: 200px;
+    height: 50px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--main-white-color);
+
+    position: relative;
+    margin-left: 12px;
+    padding-right: 62px;
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subscribe-icons {
+    position: absolute;
+    top: 50%;
+    right: 28px;
+    transform: translateY(-50%);
+    fill: var(--main-white-color);
+}
+
+.subscribe-icons svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

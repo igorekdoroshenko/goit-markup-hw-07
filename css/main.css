@@ -682,7 +682,6 @@ ul {
   align-items: center;
 }
 
-/* -----------PORTFOLIO----------- */
 .button-list {
   display: flex;
   margin-bottom: 50px;
@@ -720,6 +719,7 @@ ul {
   background: var(--accent-color);
 }
 
+/* -----------PORTFOLIO----------- */
 .portfolio-info {
   border: 1px solid #eeeeee;
   border-top: none;

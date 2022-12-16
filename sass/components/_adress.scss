@@ -1,0 +1,50 @@
+/*------------FOOTER ADRESS-------------*/
+.adress-container {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.adress-list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-adress {
+    display: block;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--main-background);
+    background: var(--background-hiro-footer);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-item {
+    display: block;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background: var(--background-hiro-footer);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-list :hover,
+.footer-list :focus {
+    color: var(--accent-color);
+}
