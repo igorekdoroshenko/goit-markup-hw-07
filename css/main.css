@@ -21,6 +21,7 @@
 /* фон героя футер #2F303A*/
 /* фон команды #F5F4FA*/
 /* осноной светлый цвет #FFFFFF*/
+/* Universal classes */
 p,
 h1,
 h2,
@@ -54,33 +55,6 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-/* Universal classes */
-.logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--color-logo);
-  text-decoration: none;
-}
-
-.logo-color {
-  margin-bottom: 28px;
-  display: block;
-  font-family: Raleway;
-  font-style: normal;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--main-white-color);
-}
-
-.logo-style {
-  color: var(--accent-color);
 }
 
 .section {
@@ -164,6 +138,32 @@ ul {
   padding: 0;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-logo);
+  text-decoration: none;
+}
+
+.logo-color {
+  margin-bottom: 28px;
+  display: block;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--main-white-color);
+}
+
+.logo-style {
+  color: var(--accent-color);
 }
 
 /* -----------HEADER----------- */
