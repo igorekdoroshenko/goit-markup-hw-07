@@ -29,7 +29,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-title {
+.modal__title {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -41,13 +41,13 @@
     margin-bottom: 2px;
 }
 
-.modal-input-group {
+.modal__input-group {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.modal-label {
+.modal__label {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -60,11 +60,11 @@
     display: block;
 }
 
-.modal-input-wrapper {
+.modal__input-wrapper {
     position: relative;
 }
 
-.modal-input-comment::placeholder {
+.modal__input-comment::placeholder {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -74,7 +74,7 @@
     color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-input {
+.modal__input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -87,8 +87,8 @@
     cursor: pointer;
 }
 
-.modal-input:hover,
-.modal-input:focus {
+.modal__input:hover,
+.modal__input:focus {
     border-color: var(--accent-color);
 
     &+svg {
@@ -96,7 +96,7 @@
         }
 }
 
-.modal-input-comment {
+.modal__input-comment {
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -116,7 +116,7 @@
         }
 }
 
-.modal-input-icons {
+.modal__input-icons {
     position: absolute;
     fill: var(--main-color);
     top: 50%;
@@ -127,14 +127,14 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-coordination {
+.coordination {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.coordination-label {
+.coordination__label {
     display: flex;
     align-items: center;
 
@@ -149,7 +149,7 @@
     color: var(--secondary-color);
 }
 
-.coordination-check {
+.coordination__check {
     width: 16px;
     height: 15px;
     border: 1px solid var(--main-color);
@@ -169,7 +169,7 @@
         }
 }
 
-.coordination-input:checked+label>span {
+.coordination__input:checked+label>span {
     border: none;
     background-color: var(--accent-color);
     transition-property: background-color;
@@ -183,7 +183,7 @@
 
 
 
-.coordination-contract {
+.coordination__contract {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -243,7 +243,7 @@
 
 
 
-.modal-close {
+.modal__close {
     display: flex;
     align-items: center;
     justify-content: center;
