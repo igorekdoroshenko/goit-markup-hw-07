@@ -1,9 +1,8 @@
-.contact-nav {
+.contact {
     display: flex;
     margin-left: auto;
 }
-
-.contact-nav a {
+.contact a {
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
@@ -11,24 +10,20 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-
-.contact-nav li {
+.contact li {
     margin-right: 50px;
 
     &:last-child {
         margin-right: 0;
     }
 }
-
-
-
-.contact-nav.link {
+.contact.link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.contact-link {
+.contact__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +41,7 @@
         color: var(--accent-color);
     }
 }
-
-
-
-.contact-icons {
+.contact__icons {
     fill: currentColor;
     margin-right: 10px;
 }

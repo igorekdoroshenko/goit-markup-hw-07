@@ -1,9 +1,9 @@
-.header-nav {
+.navigation {
     display: flex;
     margin-left: 93px;
 }
 
-.header-nav li {
+.navigation li {
     margin-right: 50px;
 
     &:last-child {
@@ -13,7 +13,7 @@
 
 
 
-.header-nav a {
+.navigation a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -22,21 +22,21 @@
     text-decoration: none;
 }
 
-.header-nav .list {
+.navigation .list {
     cursor: pointer;
 }
 
-.header-nav .header-link .current {
+.navigation .navigation__link .current {
     color: var(--accent-color);
 }
 
-.header-nav .header-link {
+.navigation .navigation__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.header-link.link.current {
+.navigation__link.link.current {
     position: relative;
     color: var(--accent-color);
 }
