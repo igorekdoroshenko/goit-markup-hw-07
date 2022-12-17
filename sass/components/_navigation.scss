@@ -1,5 +1,5 @@
 .navigation {
-    display: flex;
+    @include flex-align-justify;
     margin-left: 93px;
 }
 
@@ -14,11 +14,9 @@
 
 
 .navigation a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
+    @include font ($fw:500, $ls:0.02em);
+
+    color: map-get($colors, 'main');
     text-decoration: none;
 }
 
@@ -27,7 +25,7 @@
 }
 
 .navigation .navigation__link .current {
-    color: var(--accent-color);
+    color: map-get($colors, 'accent');
 }
 
 .navigation .navigation__link {
@@ -38,7 +36,7 @@
 
 .navigation__link.link.current {
     position: relative;
-    color: var(--accent-color);
+    color: map-get($colors, 'accent');
 }
 
 .current::after {
@@ -49,6 +47,6 @@
 
     bottom: 0;
     position: absolute;
-    background-color: var(--accent-color);
+    background-color: map-get($colors, 'accent');
     border-radius: 2px;
 }

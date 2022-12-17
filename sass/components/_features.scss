@@ -20,9 +20,9 @@
 .feature__image {
     width: 270px;
     height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-comand);
+
+@include flex-align-justify;
+
+    background-color: map-get($colors, 'background-comand');
     margin-bottom: 30px;
 }

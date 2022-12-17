@@ -1,26 +1,21 @@
 .logo {
     font-family: "Raleway";
     font-style: normal;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--color-logo);
+    @include font ($fs:26, $fw:700, $lh:1.19, $ls:0.03em);
+
+    color: map-get($colors, 'logo');
     text-decoration: none;
+    
+    &-color {
+        margin-bottom: 28px;
+        display: block;
+    
+        color: map-get($colors, 'main-white');
+    }
+    &-style {
+        color: map-get($colors, 'accent');
+    }
+
+
 }
 
-.logo-color {
-    margin-bottom: 28px;
-    display: block;
-
-    font-family: Raleway;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: var(--main-white-color);
-}
-
-.logo-style {
-    color: var(--accent-color);
-}

@@ -5,8 +5,7 @@
 }
 
 .main-nav {
-    display: flex;
-    align-items: center;
+@include flex-align-justify;
 }
 
 

@@ -6,12 +6,10 @@
 .social__title {
     margin-bottom: 20px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font ( $fw:700);
+
     text-transform: uppercase;
-    color: var(--main-white-color);
+    color: map-get($colors, 'main-white');
 }
 
 .social__list {
@@ -27,30 +25,24 @@
     }
 }
 
-
-
 .social__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-align-justify;
 
     width: 100%;
     height: 100%;
 
-    color: var(--main-white-color);
+    color: map-get($colors, 'main-white');
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
-    @include transition-backgraund-color ();
+    @include transition-backgraund-color;
 
     &:hover,
     &:focus {
-        background-color: var(--accent-color);
+        background-color: map-get($colors, 'accent');
     }
 }
 
-
-
 .social__icons {
-    fill: var(--main-white-color);
+    fill: map-get($colors, 'main-white');
 }
