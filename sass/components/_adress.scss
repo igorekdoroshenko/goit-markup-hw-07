@@ -20,9 +20,7 @@
     color: var(--main-background);
     background: var(--background-hiro-footer);
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-color ();
 }
 
 .adress__text {
@@ -38,9 +36,7 @@
     color: rgba(255, 255, 255, 0.6);
     background: var(--background-hiro-footer);
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-color ();
 }
 
 .adress__list :hover,

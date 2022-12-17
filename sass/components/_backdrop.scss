@@ -7,7 +7,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -80,9 +80,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
-    transition-property: border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-border-color ();
     outline: none;
     cursor: pointer;
 }
@@ -103,9 +101,7 @@
     border-radius: 4px;
     padding: 12px 16px;
     resize: none;
-    transition-property: border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-border-color ();
     outline: none;
     cursor: pointer;
     margin-bottom: 20px;
@@ -122,9 +118,7 @@
     top: 50%;
     left: 11px;
     transform: translateY(-50%);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-fill ();
 }
 
 .coordination {
@@ -163,18 +157,14 @@
 
     & svg {
             fill: transparent;
-            transition-property: fill;
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            @include transition-fill ();
         }
 }
 
 .coordination__input:checked+label>span {
     border: none;
     background-color: var(--accent-color);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-backgraund-color ();
 
     & svg {
             fill: var(--main-white-color);
@@ -219,9 +209,7 @@
     width: 200px;
     height: 50px;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-backgraund-color ();
 
         &:focus,
         &:hover {
@@ -231,9 +219,7 @@
 
 .button-icons {
     fill: #000000;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-fill ();
 
         &:hover,
         &:focus {

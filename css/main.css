@@ -431,7 +431,10 @@ ul {
   height: 100%;
   color: #afb1b8;
   border-radius: 50%;
-  transition-property: color, background-color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -701,7 +704,10 @@ ul {
   line-height: 1.62;
   color: var(--main-color);
   background: var(--background-comand);
-  transition-property: color, background-color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;

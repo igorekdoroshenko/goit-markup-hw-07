@@ -72,9 +72,7 @@ ul {
     text-decoration: none;
     color: var(--main-color);
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-color ();
 
         &:hover,
         &:focus {
@@ -103,9 +101,8 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.06em;
 
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition-backgraund-color ();
+
 
         &:hover,
         &:focus {
